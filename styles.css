@@ -79,9 +79,20 @@ header {
     background-color: #1E7882;
     color: white;
 }
+.image-cropper {
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+.profile-pic {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 50%;
+}
 .item-image {
   max-width: 200px;
   max-height: 200px;
+  border-radius: 4px;
 }
 @media screen and (max-width: 1300px) {
   #wrapper {
