@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Niramit">
+  </head>
+  <body>
+
+    <header>
+      <h1 class="tag">Crazy Cat Lady Shop</h1>
+    </header>
+
+    <div class="nav">
+      <div class="nav-right">
+      </div>
+    </div>
+
+    <br>
+    <div class="general" id="wrapper">
+      <div class="inner">
+        <p class="item"><img src="Images/toy1.png" class="item-image" alt="Wand toy"></p>
+        <p><h3>Classic Wand Toy</h3></p>
+        <p class="price">$4.50</p>
+        <p><button type="button" class="button add" onclick="add('Classic Wand Toy', '4.5')">Add</button></p>
+      </div>
+
+      <div class="inner">
+        <p class="item"><img src="Images/toy2.png" class="item-image" alt="Tower toy"></p>
+        <p><h3>Ball Tower</h3></p>
+        <p class="price">$5.00</p>
+        <p><button type="button" class="button add" onclick="add('Ball Tower', '5')">Add</button></p>
+      </div>
+      <div class="inner">
+        <p class="item"><img src="Images/toy3.png" class="item-image" alt="Mouse"></p>
+        <p><h3>Catnip Mouse</h3></p>
+        <p class="price">$2.00</p>
+        <p><button type="button" class="button add" onclick="add('Catnip Mouse', '2')">Add</button></p>
+      </div>
+    </div>
+    <div class="general" id="wrapper">
+      <div class="inner">
+        <p class="item"><img src="Images/toy4.png" class="item-image" alt="Butterfly Wand"></p>
+        <p><h3>Motorized Butterfly Wand</h3></p>
+        <p class="price">$10.50</p>
+        <p><button type="button" class="button add" onclick="add('Motorized Butterfly Wand', '10.5')">Add</button></p>
+      </div>
+      <div class="inner">
+        <p class="item"><img src="Images/toy5.jpg" class="item-image" alt="3 pack of mice"></p>
+        <p><h3>Catnip Mice (3 pack)</h3></p>
+        <p class="price">$4.00</p>
+        <p><button type="button" class="button add" onclick="add('Catnip Mice (3 pack)', '4')">Add</button></p>
+      </div>
+      <div class="inner">
+        <p class="item"><img src="Images/toy6.jpg" class="item-image" alt="4 pack of mice"></p>
+        <p><h3>Striped Catnip Mice (4 pack)</h3></p>
+        <p class="price">$5.50</p>
+        <p><button type="button" class="button add" onclick="add('Striped Catnip Mice (4 pack)', '5.5')">Add</button></p>
+      </div>
+    </div>
+    <div class="general" id="wrapper">
+      <div class="inner">
+        <p class="item"><img src="Images/toy7.jpg" class="item-image" alt="Bird toys"></p>
+        <p><h3>Bird Toys (2 pack)</h3></p>
+        <p class="price">$7.50</p>
+        <p><button type="button" class="button add" onclick="add('Bird Toys (2 pack)', '7.5')">Add</button></p>
+      </div>
+
+      <div class="inner">
+        <p class="item"><img src="Images/toy8.jpg" class="item-image" alt="Wand with mouse"></p>
+        <p><h3>Wand with Mouse</h3></p>
+        <p class="price">$8.00</p>
+        <p><button type="button" class="button add" onclick="add('Wand with Mouse', '8')">Add</button></p>
+      </div>
+      <div class="inner">
+        <p class="item"><img src="Images/toy9.jpg" class="item-image" alt="Motorized mouse"></p>
+        <p><h3>Motorized Mouse</h3></p>
+        <p class="price">$9.90</p>
+        <p><button type="button" class="button add" onclick="add('Motorized Mouse', '9.9')">Add</button></p>
+      </div>
+    </div>
+    <div class="general" id="wrapper">
+      <div class="inner">
+        <p class="item"><img src="Images/toy10.jpg" class="item-image" alt="Motorized wand"></p>
+        <p><h3>Motorized Wand</h3></p>
+        <p class="price">$11.00</p>
+        <p><button type="button" class="button add" onclick="add('Motorized Wand', '11')">Add</button></p>
+      </div>
+
+      <div class="inner">
+        <p class="item"><img src="Images/toy11.png" class="item-image" alt="Sushi toy"></p>
+        <p><h3>Sushi Toy</h3></p>
+        <p class="price">$12.00</p>
+        <p><button type="button" class="button add" onclick="add('Sushi Toy', '12')">Add</button></p>
+      </div>
+      <div class="inner">
+        <p class="item"><img src="Images/toy12.jpg" class="item-image" alt="Fish toys"></p>
+        <p><h3>Fish Toys (2 pack)</h3></p>
+        <p class="price">$7.00</p>
+        <p><button type="button" class="button add" onclick="add('Fish Toys (2 pack)', '7')">Add</button></p>
+      </div>
+    </div>
+
+
+  <div class="general">
+    <p><button type="button" class="button check_out" onclick="checkOut()">Check Out</button></p>
+  </div>
+  <div class="general">
+    <span class="element"></span>
+  </div>
+
+
+
+  </body>
+  <script src="jquery-3.3.1.js"></script>
+  <script src="script.js"></script>
+</html>

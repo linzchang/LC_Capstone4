@@ -1,0 +1,90 @@
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+}
+h1{
+  text-align: center;
+  opacity: .7;
+  font-family: 'Monoton';
+  letter-spacing: 2px;
+  font-size: 70px;
+  font-weight: lighter;
+}
+h2 {
+  font-family: 'Niramit';
+  letter-spacing: 1px;
+  font-weight: lighter;
+  color: #9DD1D7;
+}
+h3 {
+  font-family: 'Niramit';
+  color: #3E7777;
+}
+header {
+  text-align: center;
+  background: url(Images/shop.jpg) no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  min-height: 300px;
+}
+header {
+  line-height: 1.5;
+}
+.tag {
+  background-color: white;
+  color: #1E7882;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+.general {
+  color: white;
+  background-color: #6B6361;
+  margin: auto;
+  width: 75%;
+  padding: 20px;
+  text-align: center;
+}
+#wrapper {
+  display: flex;
+  flex-direction: row;
+  overflow:hidden;
+}
+.inner {
+  background-color: #CBDCDC;
+  border-radius: 4px;
+  min-height: 390px;
+  min-width: 300px;
+  max-width: 375px;
+  text-align: center;
+  height: 100%;
+  width: 30%;
+  display: inline-block;
+  flex-grow: 1000;
+  margin: 10px;
+}
+.button {
+    background-color: #9DD1D7;
+    border: none;
+    color: #3A3635;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.button:hover {
+    background-color: #1E7882;
+    color: white;
+}
+.item-image {
+  max-width: 200px;
+  max-height: 200px;
+}
+@media screen and (max-width: 1300px) {
+  #wrapper {
+    flex-direction: column;
+  }
+}
